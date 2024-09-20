@@ -1,0 +1,132 @@
+.container{
+    background-color: hsl(240, 75%, 98%);
+    width: 97%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style-type: none;
+    margin: 0 2rem;
+}
+nav a{
+    text-decoration: none;
+}
+.column{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 0;
+}
+.image{
+    width: 100%;
+    max-width: 800px;
+}
+.col{
+    width: 90%;
+    padding: 0 5rem;
+}
+.input{
+    width: 52%;
+    height: 1.9rem;
+    padding-left: 1rem;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+button{
+    width: 40%;
+    height: 2.3rem;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+.col-box{
+    background-color: blueviolet;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5%;
+    margin-top: 2rem;
+}
+.testimonial{
+    display: flex;
+    align-items: center;
+}
+.details{
+    text-align: left;
+}
+.pic{
+    width: 10%;
+    height: 10%;
+    padding: 0 1rem;
+    border-radius: 50%;
+}
+.user{
+    width: 80%;
+    height: 2rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    border-style: none;
+}
+.btn{
+    text-align: left;
+}
+.ctn-dpy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.column-2{
+    background-image: url('bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 5rem;
+    background-color: hsl(240, 75%, 98%);
+}
+.col-2 ul{
+    list-style-type: none;
+}
+.col-5{
+    text-align: center;
+}
+@media(max-width: 700px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        padding: 2rem 0;
+        margin: 0 auto;
+    }
+    button{
+        width: 85%;
+        height: 2.3rem;
+    }
+    .input{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .col-5{
+        text-align: center;
+    }
+    .ctn-dpy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .column-2{
+        background-image: url('bg-curve-mobile.svg');
+    }
+}
