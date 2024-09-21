@@ -132,9 +132,6 @@ button{
         flex-direction: column;
         text-align: center;
     }
-    nav{
-        padding-left: 20%;
-    }
     .column{
         display: flex;
         flex-direction: column;
