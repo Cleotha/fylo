@@ -62,8 +62,9 @@ a:hover, a:focus{
     padding-left: 1rem;
     border-right: 1px solid black;
     border-top: 1px solid black;
+    border-radius: 3px;
 }
-button{
+.button{
     width: 40%;
     height: 2.3rem;
     background-color:  hsl(224, 93%, 58%);
@@ -71,7 +72,7 @@ button{
     border-style: none;
     border-radius: 3px;
 }
-button:hover{
+.button:hover{
     background-color: hsl(243, 87%, 12%);
 }
 .col-box{
@@ -101,9 +102,7 @@ button:hover{
     padding-left: 1rem;
     margin-bottom: 1rem;
     border-style: none;
-}
-.btn{
-    text-align: left;
+    border-radius: 3px;
 }
 .ctn-dpy{
     display: flex;
