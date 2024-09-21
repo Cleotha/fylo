@@ -71,6 +71,9 @@ button{
     border-style: none;
     border-radius: 3px;
 }
+button:hover{
+    background-color: hsl(243, 87%, 12%);
+}
 .col-box{
     background-color: white;
     color: hsl(243, 87%, 12%);
